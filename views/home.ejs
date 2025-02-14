@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <% if (user) { %>
+        <h1>Welcome <%=user.name%> to ThemeCP</h1>
+        <a href="/api/user/user_loggedin">Profile</a><br></br>
+        <a href="/api/user/logout">Logout</a>
+    <% } else { %>
+        <h1>Welcome to ThemeCP</h1>
+        <a href="/api/user/login">Login with Google</a>
+    <% } %>
+</body>
+</html>
