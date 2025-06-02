@@ -6,7 +6,7 @@ const { Sequelize, DataTypes } = require('sequelize');
 //     logging: false,
 // });
 
-const sequelize = new Sequelize('postgresql://postgres:OXkJaYuCntGjQgqzyhLjdyTkEKDAIFki@autorack.proxy.rlwy.net:46444/railway', {
+const sequelize = new Sequelize('postgresql://postgres:fxDcIfiXePQPGFyWSAfhdpOUqVatPOUx@metro.proxy.rlwy.net:46947/railway', {
     logging: false,
 });
 
